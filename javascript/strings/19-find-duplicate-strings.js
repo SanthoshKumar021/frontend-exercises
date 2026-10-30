@@ -2,9 +2,9 @@ const fruits = ["Apple", "banana", "apple", "APPLE"];
 
 const updateCase = fruits.map((fruit) => fruit.toLowerCase());
 
-uniqueFruits = [...new Set(updateCase)];
+const uniqueFruits = [...new Set(updateCase)];
 
-result = [];
+const result = [];
 
 
 uniqueFruits.map((unqFruit) => {
