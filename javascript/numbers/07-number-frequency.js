@@ -10,3 +10,4 @@ uniqueNumbers.map((num)=>{
    console.log(`${num} : ${filterdArray} `)
 })
 
+
